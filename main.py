@@ -12,7 +12,7 @@ class Auto:
     def cantidadAsientos(self):
         contadorasientos = 0
         for Asiento in self.asientos:
-            if isinstance(self.asientos, tuple(Asiento)):
+            if isinstance(self.asientos, Asiento):
                 contadorasientos += 1
         return contadorasientos
 
