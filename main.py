@@ -27,7 +27,7 @@ class Auto:
         return "Auto original"
 
 class Asiento:
-    def __anit__ (self, color, precio, registro):
+    def __anit__(self, color, precio, registro):
         self.color = color
         self.precio = precio
         self.registro = registro
@@ -38,7 +38,7 @@ class Asiento:
             self.color = color
 
 class Motor:
-    def __init__ (self, numeroCilindros, tipo, registro):
+    def __init__(self, numeroCilindros, tipo, registro):
         self.numeroCilindros = numeroCilindros
         self.tipo = tipo
         self.registro = registro
