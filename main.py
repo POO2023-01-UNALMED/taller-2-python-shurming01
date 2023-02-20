@@ -14,7 +14,7 @@ class Auto:
         for Asiento in self.asientos:
             if isinstance (self.asientos, Asiento):
                 contadorasientos += 1
-        return contadorasientos
+                return contadorasientos
 
     def verficarIntegridad(self):
         for  Asiento in self.asientos:
@@ -26,7 +26,6 @@ class Auto:
         return "Auto original"
 
 class Asiento:
-
     def __init__(self, color, precio, registro):
         self.color = color
         self.precio = precio
