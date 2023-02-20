@@ -28,13 +28,14 @@ class Auto:
 
 class Asiento:
 
-    def __anit__(self,color,precio,registro):
+    def __init__(self, color, precio, registro):
         self.color = color
         self.precio = precio
         self.registro = registro
 
-    def cambiarColor(self,color):
+    def cambiarColor(self, color):
         permitidos = ["rojo", "verde", "amarillo", "negro", "blanco"]
+
         if color in permitidos:
             self.color = color
 
