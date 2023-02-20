@@ -11,13 +11,13 @@ class Auto:
 
     def cantidadAsientos(self):
         contadorasientos = 0
-        for asiento in self.asientos:
+        for asientos in self.asientos:
             if isinstance (self.asientos, Asiento):
                 contadorasientos += 1
         return contadorasientos
 
     def verficarIntegridad(self):
-        for  asiento in self.asientos:
+        for  asientos in self.asientos:
             if isinstance(self.asientos, Asiento):
                 if self.asientos.regsistro != self.registro:
                     return "Las piezas no son originales"
