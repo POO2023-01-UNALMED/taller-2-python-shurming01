@@ -10,11 +10,11 @@ class Auto:
           self.registro = registro
 
     def cantidadAsientos(self):
-        contador = 0
+        contadorasientos = 0
         for Asiento in self.asientos:
-            if isinstance(self.asientos, Asiento):
-                contador += 1
-        return contador
+            if isinstance(self.asientos, tuple(Asiento)):
+                contadorasientos += 1
+        return contadorasientos
 
     def verficarIntegridad(self):
 
