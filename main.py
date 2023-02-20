@@ -14,7 +14,7 @@ class Auto:
         for Asiento in self.asientos:
             if isinstance (self.asientos, Asiento):
                 contadorasientos += 1
-                return contadorasientos
+        return contadorasientos
 
     def verficarIntegridad(self):
         for  Asiento in self.asientos:
